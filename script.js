@@ -1,7 +1,12 @@
 const boxes = document.querySelectorAll(".child"); // 64 --> array
 const eraserBtn = document.getElementById("eraser-button");
 const input = document.getElementById("my-input");
+
 let color = "black";
+
+// input.onchange = () => {
+//   color = input.value;
+// };
 
 eraserBtn.onclick = () => {
   color = "white";
