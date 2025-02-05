@@ -32,3 +32,19 @@ body {
   width: 52px;
   border: 1px solid black;
 }
+
+.tools {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4vw;
+  padding: 2vh 0;
+}
+
+.tools button {
+  padding: 8px 16px;
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
