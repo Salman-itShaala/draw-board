@@ -7,3 +7,28 @@
 body {
   font-family: sans-serif;
 }
+
+.heading {
+  text-align: center;
+  padding: 2vh 0;
+}
+
+.draw-board-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.draw-board {
+  width: 416px;
+  height: 416px;
+  /* background-color: aqua; */
+  /* border: 2px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.child {
+  height: 52px;
+  width: 52px;
+  border: 1px solid black;
+}
